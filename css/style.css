@@ -1,0 +1,32 @@
+.icon {
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    margin:auto;
+    margin-top: 50px;
+    transition: 200ms all;
+}
+
+.icon:hover{
+    filter: saturate(200%);
+    transform: scale(1.1);
+}
+
+.icon img {
+    height: 60%;
+    width: 60%;
+    margin: 20%;
+}
+
+.fire {
+    background: #FBA54C;
+    box-shadow: 0 0 20px #FBA54C;
+}
+.grass {
+    background: #5FBD58;
+    box-shadow: 0 0 20px #5FBD58;
+}
+.water {
+    background: #539DDF;
+    box-shadow: 0 0 20px #539DDF;
+}
