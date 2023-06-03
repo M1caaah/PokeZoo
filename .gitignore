@@ -27,11 +27,11 @@ yarn-error.log*
 Thumbs.db
 
 # Ignore MDB CSS and JS files
-*.css
-*.js
-*.scss
-*.js.map
-*.css.map
+mdb*.css
+mdb*.css.map
+mdb*.js
+mdb*.js.map
+src/
 
 # Other project files
 License.pdf
