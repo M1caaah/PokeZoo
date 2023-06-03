@@ -52,3 +52,10 @@ main
 {
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
+.pill
+{
+  background-color: #539DDF;
+  color: white;
+  font-size: 13px;
+  padding: 2px;
+}
