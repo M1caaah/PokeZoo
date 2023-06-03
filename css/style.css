@@ -48,3 +48,7 @@ main
 {
   background-color: #006bc8;
 }
+.banner-header
+{
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
