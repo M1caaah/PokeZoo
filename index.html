@@ -19,141 +19,135 @@
 </head>
 
 <body>
-  <header>
-    <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-light navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/pokeball.png" alt="logo" width="30px"> PokéZoo</a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a href="#" class="nav-link">Info &amp; Tickets</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Over ons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                data-mdb-toggle="dropdown" aria-expanded="false">Onze Pokémon
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a href="water.html" class="dropdown-item">Water</a>
-                </li>
-                <li>
-                  <a href="fire.html" class="dropdown-item">Fire</a>
-                </li>
-                <li>
-                  <a href="grass.html" class="dropdown-item">Grass</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+<header>
+  <nav class="navbar fixed-top navbar-light navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="img/pokeball.png" alt="logo" width="30px"> PokéZoo</a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Info &amp; Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Over ons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-mdb-toggle="dropdown" aria-expanded="false">Onze Pokémon
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a href="water.html" class="dropdown-item">Water</a>
+              </li>
+              <li>
+                <a href="fire.html" class="dropdown-item">Fire</a>
+              </li>
+              <li>
+                <a href="grass.html" class="dropdown-item">Grass</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Navbar -->
+    </div>
+  </nav>
 
-    <!-- Landing page -->
-    <div class="bg-image shadow-2-strong" style="background-image: url(img/landing-page/background-landing-page.png); height: 95vh;">
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
-        <div class="container d-flex align-items-center justify-content-center h-100 text-white text-center">
-          <div class="row">
-            <div class="col">
-              <img src="img/landing-page/logo.png" alt="pokezoo logo" class="img-fluid" id="logo">
-              <p class="display-5">Ontdek de magische wereld van Pokémon!</p>
-            </div>
+  <div class="bg-image shadow-2-strong" style="background-image: url(img/landing-page/background-landing-page.png); height: 95vh;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+      <div class="container d-flex align-items-center justify-content-center h-100 text-white text-center">
+        <div class="row">
+          <div class="col">
+            <img src="img/landing-page/logo.png" alt="pokezoo logo" class="img-fluid" id="logo">
+            <p class="display-5">Ontdek de magische wereld van Pokémon!</p>
           </div>
         </div>
       </div>
-      <!-- Ticket Information Box -->
-      <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5">
+    </div>
+    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-5">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Ticket informatie</h5>
+          <p class="card-text">Hier vindt u informatie over tickets voor PokéZoo.</p>
+          <a href="#" class="btn btn-primary">Koop Tickets</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <h1 class="m-4">Ontmoet onze Pokémon!</h1>
+      <hr>
+    </div>
+    <div class="row text-center">
+      <div class="col-12 col-md-4 my-3">
+        <div class="card">
+          <img src="img/landing-page/cards/water-type-card.jpg" class="card-img-top" alt="water type" />
+          <div class="card-body">
+            <h5 class="card-title">Water</h5>
+            <p class="card-text">Beleef een avontuur vol waterpret met onze Water-type Pokémon!</p>
+            <a href="water.html" class="btn btn-primary">Meer info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 my-3">
+        <div class="card">
+          <img src="img/landing-page/cards/fire-type-card.jpg" class="card-img-top" alt="fire type" />
+          <div class="card-body">
+            <h5 class="card-title">Vuur</h5>
+            <p class="card-text">Laat je betoveren door de vurige kracht van Fire-type Pokémon!</p>
+            <a href="fire.html" class="btn btn-primary">Meer info</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 my-3">
+        <div class="card">
+          <img src="img/landing-page/cards/grass-type-card.jpg" class="card-img-top" alt="grass type" />
+          <div class="card-body">
+            <h5 class="card-title">Gras</h5>
+            <p class="card-text">Ervaar de kracht van de natuur met onze sterke Grass-type Pokémon!</p>
+            <a href="grass.html" class="btn btn-primary">Meer info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
         <div class="card text-center">
           <div class="card-body">
-            <h5 class="card-title">Ticket informatie</h5>
-            <p class="card-text">Hier vindt u informatie over tickets voor PokéZoo.</p>
-            <a href="#" class="btn btn-primary">Koop Tickets</a>
+            <h5 class="card-title">Schrijf je in voor onze nieuwsbrief</h5>
+            <p class="card-text">Blijf op de hoogte van het laatste nieuws en evenementen.</p>
+            <form>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Voer je e-mailadres in" required>
+                <button class="btn btn-primary" type="submit">Inschrijven</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-    <!-- Landing page -->
-  </header>
+  </div>
+</main>
 
-  <main>
-    <div class="container">
-      <div class="row justify-content-center text-center">
-        <h1 class="m-4">Ontmoet onze Pokémon!</h1>
-        <hr>
-      </div>
-      <div class="row text-center">
-        <div class="col-12 col-md-4 my-3">
-          <div class="card">
-            <img src="img/landing-page/cards/water-type-card.jpg" class="card-img-top" alt="water type" />
-            <div class="card-body">
-              <h5 class="card-title">Water</h5>
-              <p class="card-text">Beleef een avontuur vol waterpret met onze Water-type Pokémon!</p>
-              <a href="water.html" class="btn btn-primary">Meer info</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <div class="card">
-            <img src="img/landing-page/cards/fire-type-card.jpg" class="card-img-top" alt="fire type" />
-            <div class="card-body">
-              <h5 class="card-title">Vuur</h5>
-              <p class="card-text">Laat je betoveren door de vurige kracht van Fire-type Pokémon!</p>
-              <a href="fire.html" class="btn btn-primary">Meer info</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 my-3">
-          <div class="card">
-            <img src="img/landing-page/cards/grass-type-card.jpg" class="card-img-top" alt="grass type" />
-            <div class="card-body">
-              <h5 class="card-title">Gras</h5>
-              <p class="card-text">Ervaar de kracht van de natuur met onze sterke Grass-type Pokémon!</p>
-              <a href="grass.html" class="btn btn-primary">Meer info</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<footer class="bg-light text-lg-start">
+  <div class="container p-3 text-center">
+    © 2023 PokeZoo. All rights reserved.
+  </div>
+</footer>
 
-  <!-- Newsletter -->
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card text-center">
-            <div class="card-body">
-              <h5 class="card-title">Schrijf je in voor onze nieuwsbrief</h5>
-              <p class="card-text">Blijf op de hoogte van het laatste nieuws en evenementen.</p>
-              <form>
-                <div class="input-group mb-3">
-                  <input type="email" class="form-control" placeholder="Voer je e-mailadres in" required>
-                  <button class="btn btn-primary" type="submit">Inschrijven</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer class="bg-light text-lg-start">
-    <div class="container p-3 text-center">
-      © 2023 PokeZoo. All rights reserved.
-    </div>
-  </footer>
-
-  <!-- MDB -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
-  <!-- Custom scripts -->
-  <script type="text/javascript"></script>
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+<!-- Custom scripts -->
+<script type="text/javascript"></script>
 </body>
 
 </html>
