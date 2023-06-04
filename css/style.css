@@ -4,6 +4,7 @@ main {
 
 #logo {
   width: 70%;
+  margin-top: 200px;
 } 
 
 @media (max-width: 990px) {
