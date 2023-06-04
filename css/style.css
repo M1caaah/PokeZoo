@@ -2,6 +2,16 @@ main {
   padding-top: 55px;
 }
 
+#logo {
+  width: 70%;
+} 
+
+@media (max-width: 990px) {
+  #logo {
+    width: 100%;
+  }
+} 
+
 .icon {
   border-radius: 100%;
   height: 200px;
