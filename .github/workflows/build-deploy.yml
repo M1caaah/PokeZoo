@@ -1,0 +1,25 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      # Modify the following steps based on your build process
+      - name: Build 🏗️
+        run: |
+          # Add commands to build your website here
+
+      - name: Deploy to GitHub Pages 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
