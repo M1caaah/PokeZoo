@@ -17,6 +17,13 @@ main {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+.banner-header {
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 60px;
+}
+
 
 .icon {
   border-radius: 100%;
