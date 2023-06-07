@@ -24,6 +24,20 @@ main {
   margin-top: 60px;
 }
 
+.time {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.time i {
+  color: #0C69C8;
+  padding-right: 5px;
+}
+
+.event-img {
+  max-width: 400px;
+}
+
+
 @media (max-width: 991.98px) {
   .banner-header {
     font-size: 80px;
